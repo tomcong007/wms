@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GBK"?>
+<system>
+<category name="model" description="模式配置">
+        <item name="debug" value="1" description="0:生产环境,1:测试环境" />
+   </category>
+    <category name="model" description="模板配置">
+        <item name="tpl" value="D:\work\wms\wms-user\src\main\java\com\havaFun" description="模板绝对路径"></item>
+        <item name="path" value="D:\work\wms\wms-user\src\main\resources\ftl" description="模板文件路径"></item>
+    </category>
+</system>

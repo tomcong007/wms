@@ -1,0 +1,2 @@
+dubbo-project
+商城系统,使用的是springBoot+jpa,操作商品库存信息,属于生产者生产商品库存信息

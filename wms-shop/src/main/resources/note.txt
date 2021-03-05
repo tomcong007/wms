@@ -1,0 +1,2 @@
+dubbo-project
+商城系统,使用的是springBoot+mybatis,操作商品信息,属于消费者消费用户信息

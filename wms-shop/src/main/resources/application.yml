@@ -1,0 +1,34 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    username: meituan
+    password: --Summer.911
+    url: jdbc:mysql://localhost:3306/meituan?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
+dubbo:
+  application:
+    name: wmsUserServiceConsumer
+    qos :
+      enable : true
+      port : 33333
+      accept:
+        foreign:
+          ip: false
+  registry:
+    address: 116.196.81.197:2181
+    protocol: zookeeper
+    check : false
+  consumer:
+    check: false
+  protocol:
+    name: dubbo
+    port: 20881
+  scan:
+    base-packages: com.haveFun
